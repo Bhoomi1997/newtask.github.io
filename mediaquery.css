@@ -1,0 +1,94 @@
+@media (max-width:800px){
+    .home, .about{
+        display: block;
+    }
+    .home p, .about p{
+        text-align: justify;
+    }
+    .about-img{
+        display:none;
+    }
+
+    .home-contact h1 {
+        font-size: 40px;
+    }
+
+    .btn-box {
+        text-align: center;
+        width: 100%;
+        display: block;
+}
+.btn-1,.btn-2 {
+    margin: 20px 0;
+    min-width: 65%;
+}
+
+.img-box img {
+    width: 230px;
+}
+.contact-form form {
+    margin: 1rem 2rem;}
+
+/* .home {padding-top: 140px}; */
+
+.home-content h1, #home h2, .about-content h3{
+    font-size: 40px !important;
+}
+}
+
+@media (min-width:980px){
+    .m-education {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+    }
+}
+
+
+
+
+@media (max-width:980px) {
+    #education .m-education{
+        display: block;
+    }
+    #education .m-education .card{
+        width: 100% !important;
+    }
+}
+
+@media (min-width:980px) {
+    #education .m-education .card{
+        width:25rem !important;
+    }
+}
+    
+
+@media (max-width:980px) {
+    .certificate-page .certificate {
+        display: block;
+    }
+}
+
+@media (max-width:900px) {
+    
+    .certificate-page {
+        padding: 0% 5% 10%;
+    }
+}
+
+@media (max-width:980px) {
+    .navbar-nav{
+       position: absolute;
+       background: #000;
+       /* width: 239%; */
+       /* left: -59px; */
+      right: 0px;
+      margin-top: 20px;
+   }
+
+   .m-education .card{
+    min-height: 0;
+   }
+
+   }
